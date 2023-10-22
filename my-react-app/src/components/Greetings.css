@@ -1,0 +1,30 @@
+/* Greetings.css */
+
+.greetings {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 85vh; /* Make it full-height on the viewport */
+  width: 100%;
+  /* background-color: #FDFFF7; Set the background color */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+h4 {
+  color: #404040;
+  transition: color 0.3s ease-in-out;
+}
+
+h4:hover, h1:hover {
+  color: #D44D5C;
+}

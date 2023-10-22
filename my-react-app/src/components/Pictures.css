@@ -1,0 +1,23 @@
+/* Pictures.css */
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; /* Center the images horizontally */
+  margin: 0 auto; /* Center the container horizontally */
+  max-width: 50%; /* Responsive sizing */
+}
+
+.image-grid img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 50px;
+}
+
+@media (min-width: 768px) {
+  .image-grid {
+    max-width: 70%;
+  }
+}
